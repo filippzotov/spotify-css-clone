@@ -1,0 +1,35 @@
+.side-menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    bottom: 100px;
+    top: 0;
+    width: 180px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+
+
+.side-top-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.side-general-links {
+
+    margin-bottom: 20px;
+}
+
+.side-link {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.current-song-image {
+    width: 100%;
+}
